@@ -6,7 +6,17 @@ var async = require('async');
 
 /* GET home page. */
 router.get('/', function(req, res) {
-  res.render('index');
+  var words = [
+    "the watercolor and ink making",
+    "stays up all night reading",
+    "behavioral neuroscience researching",
+    "newsletter designing",
+    "cosplay-models-for-fun",
+    "art historical diagramming",
+    "summa cum laude recent graduate from new jersey"
+  ];
+
+  res.render('index', {words: words});
 });
 
 module.exports = router;

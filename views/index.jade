@@ -23,3 +23,14 @@ block body
             img.img-responsive(src="/images/categories/artisan.jpg")
             div.title
               | Artisan
+
+    div.words
+      div.container
+        - each word, n in words
+          span.word
+            = word
+            case n
+              when words.length - 1
+                | .
+              default
+                |,&nbsp;
