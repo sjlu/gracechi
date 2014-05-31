@@ -59,8 +59,6 @@
   .words {
     margin: 25px 0;
 
-
-
     // text-transform: uppercase;
     text-align: center;
 
@@ -77,6 +75,32 @@
       &:hover {
         color: rgb(192, 192, 192);
       }
+    }
+  }
+
+  .contact {
+    font-size: 36px;
+    text-align: center;
+
+    margin: 60px 0;
+
+    i {
+      margin: 25px;
+      color: rgb(192, 192, 192);
+
+      cursor: pointer;
+
+      .transition(color 0.2s);
+
+      &:hover {
+        color: white
+      }
+    }
+
+    .tooltip-arrow,
+    .tooltip-inner {
+      background-color: transparent;
+      border-top-color: transparent;
     }
   }
 }

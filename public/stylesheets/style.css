@@ -7491,3 +7491,25 @@ button.close {
 #homepage .words .word:hover {
   color: #c0c0c0;
 }
+#homepage .contact {
+  font-size: 36px;
+  text-align: center;
+  margin: 60px 0;
+}
+#homepage .contact i {
+  margin: 25px;
+  color: #c0c0c0;
+  cursor: pointer;
+  -moz-transition: color 0.2s;
+  -o-transition: color 0.2s;
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s;
+}
+#homepage .contact i:hover {
+  color: #ffffff;
+}
+#homepage .contact .tooltip-arrow,
+#homepage .contact .tooltip-inner {
+  background-color: transparent;
+  border-top-color: transparent;
+}
