@@ -7473,6 +7473,13 @@ button.close {
   font-size: 24px;
   margin-top: 5px;
 }
+#homepage .details {
+  background-color: #e7e7e7;
+}
+#homepage .details .detail-section {
+  padding: 30px 0;
+  display: none;
+}
 #homepage .words {
   margin: 25px 0;
   text-align: center;

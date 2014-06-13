@@ -11,18 +11,30 @@ block body
     div.content
       div.container
         div.row
-          div.col-md-4
+          div.col-md-4.studio(data-open="studio")
             img.img-responsive(src="/images/categories/studio.jpg")
             div.title
               | Studio
-          div.col-md-4
+          div.col-md-4.industry(data-open="industry")
             img.img-responsive(src="/images/categories/industry.jpg")
             div.title
               | Industry
-          div.col-md-4
+          div.col-md-4.artisan(data-open="artisan")
             img.img-responsive(src="/images/categories/artisan.jpg")
             div.title
               | Artisan
+
+    div.details
+      div.detail-section.container(data-section="industry")
+        div.row
+          - each project, key in projects.industry
+            div.col-md-3
+              img.img-responsive(src=project.path + 'thumb.png')
+              h4.text-center
+                = project.title
+              br
+
+
 
     div.words
       div.container
@@ -41,5 +53,7 @@ block body
       a(href="/resume.pdf", target="_new")
         i.fa.fa-file-text-o(data-toggle="tooltip", data-placement="top", title="Resume")
 
+  script(type="text/javascript", src="/javascripts/homepage.js")
   script(type="text/javascript")
     | $(document).ready(function() { $('[data-toggle="tooltip"]').tooltip(); });
+    | $(document).ready(function() { var homepage = new Homepage(); });
