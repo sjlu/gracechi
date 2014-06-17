@@ -66,6 +66,13 @@ var words = [
 ];
 
 router.get('/', function(req, res) {
+  res.render('maintenance', {
+    words: words,
+    projects: projects
+  });
+});
+
+router.get('/homepage', function(req, res) {
   res.render('index', {
     words: words,
     projects: projects

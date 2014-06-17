@@ -7520,3 +7520,46 @@ button.close {
   background-color: transparent;
   border-top-color: transparent;
 }
+#maintenance {
+  background-color: #2A2E39;
+}
+#maintenance .logo {
+  margin-top: 5%;
+  width: 100%;
+  text-align: center;
+}
+#maintenance .logo img {
+  width: 150px;
+  height: 150px;
+}
+#maintenance .name {
+  color: white;
+  font-size: 36px;
+  vertical-align: middle;
+  font-weight: 300;
+  width: 100%;
+  text-align: center;
+  margin-top: -20px;
+}
+#maintenance .contact {
+  margin-top: 10px;
+  font-size: 36px;
+  text-align: center;
+}
+#maintenance .contact i {
+  margin: 25px;
+  color: #c0c0c0;
+  cursor: pointer;
+  -moz-transition: color 0.2s;
+  -o-transition: color 0.2s;
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s;
+}
+#maintenance .contact i:hover {
+  color: #ffffff;
+}
+#maintenance .contact .tooltip-arrow,
+#maintenance .contact .tooltip-inner {
+  background-color: transparent;
+  border-top-color: transparent;
+}
