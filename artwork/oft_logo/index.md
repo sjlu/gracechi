@@ -5,4 +5,4 @@ categories: [artwork]
 title: "OFT"
 ---
 
-![screenshot](/artwork/oft_logo/OFT_thumb.jpg)
+![screenshot](/artwork/oft_logo/OFT_thumb.png)
