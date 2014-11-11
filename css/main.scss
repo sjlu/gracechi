@@ -4,6 +4,26 @@
 @import "bourbon/bourbon";
 
 body {
-  background-color: #bdc1cd;
+  background-color: #e9eaee;
+  font-family: 'Varela Round', sans-serif;
 }
 
+.infoCard {
+  text-align: center;
+
+  margin-top: 50px;
+
+  img {
+    width: 150px;
+  }
+
+  i {
+    font-size: 24px;
+    color: black;
+    margin: 20px;
+  }
+
+  a:hover {
+    text-decoration: none;
+  }
+}
