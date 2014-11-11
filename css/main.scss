@@ -38,6 +38,7 @@ body {
   padding: 0;
 
   margin-top: 40px;
+  margin-bottom: 80px;
 
   box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, .04);
 
@@ -52,6 +53,10 @@ body {
 
     hr {
       margin: 0 240px;
+    }
+
+    p {
+      margin-bottom: 0;
     }
 
     p.description {
