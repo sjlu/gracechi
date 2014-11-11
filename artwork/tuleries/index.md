@@ -5,4 +5,4 @@ categories: [artwork]
 title: "Tuleries"
 ---
 
-![screenshot](/artwork/tuleries/tuleries.jpg)
+![screenshot](/artwork/tuleries/Tuleries.jpg)

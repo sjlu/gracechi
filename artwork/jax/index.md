@@ -5,4 +5,4 @@ categories: [artwork]
 title: "Jax"
 ---
 
-![screenshot](/artwork/jax/jax.jpg)
+![screenshot](/artwork/jax/Jax.jpg)
