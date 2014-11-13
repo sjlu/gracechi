@@ -4,8 +4,10 @@
 @import "bourbon/bourbon";
 
 body {
-  background-color: #e9eaee;
+  // background-color: #e9eaee;
+  // background-color: #2A2E39;
   font-family: 'Varela Round', sans-serif;
+  background-image: url("/images/background.png");
 }
 
 .infoCard {
@@ -45,14 +47,19 @@ body {
   .artwork {
     font-family: "Nunito", sans-serif;
     font-weight: 300;
+    text-align: center;
 
     h1 {
-      margin-top: 100px;
+      margin-top: 80px;
       text-align: center;
     }
 
     hr {
       margin: 0 240px;
+
+      &.vertical-margin {
+        margin: 16px 240px 10px;
+      }
     }
 
     p {
@@ -60,13 +67,22 @@ body {
     }
 
     p.description {
-      margin: 40px 15%;
+      margin: 40px 25px 10px;
       font-size: 17px;
       line-height: 28px;
     }
 
+    p.subtitle {
+      margin: 8px 25px 24px;
+      color: rgba(51, 51, 51, 0.6);
+      text-align: center;
+      // text-transform: uppercase;
+      font-size: 15px;
+    }
+
     img {
       max-width: 100%;
+      margin: 0 auto;
     }
   }
 }
