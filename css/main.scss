@@ -62,10 +62,12 @@ body {
     }
 
     hr {
-      margin: 0 240px;
+      max-width: 180px;
+      margin: 0 auto;
 
       &.vertical-margin {
-        margin: 16px 240px 10px;
+        margin-top: 16px;
+        margin-bottom: 10px;
       }
     }
 
@@ -92,7 +94,7 @@ body {
     }
 
     p.subtitle {
-      margin: 0px 25px 24px;
+      margin: 0px 25px 38px;
       font-size: 14px;
     }
 
