@@ -14,7 +14,7 @@ layout: default
     </a>
   </div>
 </div>
-{% for page in site.pages | sort:title %}
+{% for page in site.pages | sort:sort %}
   {% if page.categories contains "artwork" %}
     <h1 class="section-header">{{page.title}}</h1>
     <div class="art container">
